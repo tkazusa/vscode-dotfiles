@@ -1,0 +1,70 @@
+[
+/* -------------------------------------------------------------------------- */
+/*                                  sidebar                                   */
+/* -------------------------------------------------------------------------- */
+    // サイドバーからの移動 
+    //{
+    //    "key": "",
+    //    "command":"workbench.action.focusFirstEditorGroup",
+    //    "when": "explorerViewletVisible && explorerViewletFocus && !editorFocus && !inQuickOpen"
+    //},
+
+/* -------------------------------- explorer -------------------------------- */
+    //explorer表示
+    //{
+    //    "key": "s e",
+    //    "command": "workbench.view.explorer"
+    //},
+    //エクスプローラー間移動
+    {
+        "key": "j",
+        "command": "list.focusDown",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "k",
+        "command": "list.focusUp",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+
+    //新規ファイル作成
+    {
+        "key": "n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    //新規フォルダ作成
+    {
+        "key": "f",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    //エクスプローラーでフォルダを開く
+    {
+        "key": "e",
+        "command": "revealFileInOS",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    //リネーム
+    {
+        "key": "r",
+        "command": "renameFile",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    //削除
+    {
+        "key": "d",
+        "command": "deleteFile",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+
+/* ---------------------------- terminal(panel) --------------------------- */
+
+    //現状使わないので消しておく
+    // {
+    //     "key": "ctrl+space ctrl+t",
+    //     "command": "workbench.action.terminal.toggleTerminal" ,
+    //     "when": "vim.mode != 'SearchInProgressMode' && vim.mode != 'Insert'",
+    // },
+
+ ]
