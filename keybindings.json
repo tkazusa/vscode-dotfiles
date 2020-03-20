@@ -66,5 +66,4 @@
     //     "command": "workbench.action.terminal.toggleTerminal" ,
     //     "when": "vim.mode != 'SearchInProgressMode' && vim.mode != 'Insert'",
     // },
-
  ]

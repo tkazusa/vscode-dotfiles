@@ -5,7 +5,10 @@
     "editor.minimap.renderCharacters": false,
     "files.autoGuessEncoding": true,
     "vim.useSystemClipboard": true,
-    
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true
+    "python.linting.lintOnSave": true
+    "python.formatting.provider": autopep8
 
     //For vim
     //Set s as leader
